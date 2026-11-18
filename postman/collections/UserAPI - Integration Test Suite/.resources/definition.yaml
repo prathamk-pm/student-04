@@ -1,0 +1,14 @@
+$kind: collection
+description: This is a description
+variables:
+  baseUrl: /
+auth:
+  - id: 54b9bceb-b46b-4901-8f72-42243dd6902e
+    type: apikey
+    name: apikey auth
+    credentials:
+      key: X-API-Key
+      value: "{{apiKey}}"
+      in: header
+    rules:
+      url: customer-education.postmanlabs.com/*
