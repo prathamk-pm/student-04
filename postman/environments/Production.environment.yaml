@@ -1,6 +1,6 @@
 name: Production
 values:
   - key: baseUrl
-    value: ''
+    value: 'https://customer-education.postmanlabs.com'
   - key: apiKey
-    value: ''
+    value: '1234'
